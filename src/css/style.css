@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+li{
+  margin-top: 20px;
+  font-size: 20px;
+  list-style-image: linear-gradient(to left bottom, red, blue);
+}
+
+a {
+  text-decoration: none;
+  color: #8d0b0b;
+}
+
+h1,
+h2 {
+  margin: 5px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.greetings__wrapper {
+  margin-top: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.greetings__fio {
+  text-align: center;
+}
+
+.greetings__photo > img{
+  width: 250px;
+  border-radius: 50%;
+}
+
+.about__wrapper {
+  padding: 10px 20px 10px 30px;
+}
+
+.contacts__wrapper{
+  display: flex;
+  padding: 5px 0;
+  justify-content: center;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.contacts__item {
+  margin: 5px;
+}
+
+.contacts__item:hover {
+  margin: 0px 2.5px;
+}
+
+.contacts__item:hover > a > img {
+  width: 45px;
+  height: 45px;
+}
+
+.greetings__wrapper, .about__wrapper, .contacts__wrapper {
+  background-color:aliceblue;
+  opacity: .8;
+}
